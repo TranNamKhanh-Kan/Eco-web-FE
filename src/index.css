@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: 'Montserrat';
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/* Read more button styling */
+.read-more-button {
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.read-more-button:hover {
+  box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.read-more-text {
+  background: linear-gradient(90deg, #616161 0%, #928C86 50%, #0b521ba0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Hero text styling */
+.hero-text {
+  font-family: 'Montserrat';
+}
+
+.hero-small-title {
+  font-family: 'Montserrat';
+  letter-spacing: 0.02em;
+}
+
+.hero-main-title {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.hero-description {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.hero-button {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+/* Gradient animation for text */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
